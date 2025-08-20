@@ -79,34 +79,36 @@
 poder resolver el ejercicio */
 
 /* el color de fondo  */
+
 .dark {
+
   background-color: rgb(39, 39, 39);
-}
 
-/* las modificaciones al titulo 'la familia de los felinos */
-.header-dark {
-  background-color: rgb(19, 19, 19);
-  color: rgb(170, 170, 170);
-  border-color: black;
-}
-
-.header-dark button {
-  color: rgb(170, 170, 170);
-
-  &:hover {
-    background-color: rgba(255, 255, 255, 0.11);
+  /* las modificaciones al titulo 'la familia de los felinos */
+  .header {
+    background-color: rgb(19, 19, 19);
+    color: rgb(170, 170, 170);
+    border-color: black;
   }
-}
+
+  .header button {
+    color: rgb(170, 170, 170);
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.11);
+    }
+  }
 
 
-/* las modificaciones a los items */
-.item-dark {
-  background-color: rgb(19, 19, 19);
-  border-color: black;
-}
+  /* las modificaciones a los items */
+  .item {
+    background-color: rgb(19, 19, 19);
+    border-color: black;
+  }
 
-/* las modificaciones a los textos de los items y los titulos de ellos */
-.item-dark h2,
-.item-dark p {
-  color: rgb(230, 230, 230);
+  /* las modificaciones a los textos de los items y los titulos de ellos */
+  .item h2,
+  .item p {
+    color: rgb(230, 230, 230);
+  }
 }
