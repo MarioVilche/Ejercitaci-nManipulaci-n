@@ -75,10 +75,10 @@ function crearNodoAnimales(item) {
     imagen.src = item.imagen
 
     const animal = document.createElement("h2")
-    animal.innerHTML = item.nombre
+    animal.append(item.nombre)
 
     const descripcion = document.createElement("p")
-    descripcion.innerHTML = item.descripcion
+    descripcion.append(item.descripcion)
 
     tarjeta.appendChild(imagen)
     tarjeta.appendChild(animal)
